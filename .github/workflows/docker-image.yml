@@ -33,7 +33,7 @@ jobs:
         
     - name: Push Docker login
       run: |
-        docker push -t gonzalonh/docker-graphql:0.0.2 .
+        docker push -t gonzalonh/docker-graphql:0.0.2 
         
        
 
